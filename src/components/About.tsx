@@ -35,6 +35,33 @@ function About() {
     "Technical Writing",
     "Project Management"
   ];
+
+          {/* Future Goals */}
+          <div className="mb-16">
+            <div className="bg-gradient-to-br from-slate-800/50 to-purple-900/30 rounded-3xl p-8 shadow-2xl border border-purple-500/20 backdrop-blur-sm hover:shadow-2xl hover:shadow-purple-500/25 transition-all duration-500">
+              <h2 className="text-2xl font-bold text-white mb-6 flex items-center">
+                <Users className="h-6 w-6 mr-3 text-pink-400" />
+                Looking Forward
+              </h2>
+              <div className="prose prose-lg text-purple-100 space-y-4">
+                <p className="text-lg leading-relaxed text-white">
+                  As I continue my academic journey, I'm actively seeking opportunities to apply my knowledge in real-world scenarios. 
+                  I'm particularly interested in internships that would allow me to work on challenging projects and learn from experienced professionals.
+                </p>
+                <p className="text-lg leading-relaxed text-purple-200">
+                  My goal is to bridge the gap between academic learning and industry applications, contributing to innovative solutions 
+                  while continuously expanding my skill set. I believe in the power of collaboration and am always eager to work with 
+                  like-minded individuals who share a passion for technology and problem-solving.
+                </p>
+                <div className="mt-6 p-4 bg-gradient-to-r from-purple-900/40 to-blue-900/40 rounded-xl border border-purple-500/30">
+                  <p className="text-purple-100 font-medium">
+                    <strong className="text-white">Currently seeking:</strong> Internship opportunities, collaborative projects, 
+                    and mentorship in software development and electronics engineering.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
    {/* Call to Action */}
           <div className="text-center">
             <div className="bg-gradient-to-r from-purple-900/30 to-blue-900/30 rounded-2xl p-8 border border-purple-500/30 backdrop-blur-sm hover:shadow-2xl hover:shadow-purple-500/25 transition-all duration-500">

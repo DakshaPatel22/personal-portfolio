@@ -35,6 +35,18 @@ function About() {
     "Technical Writing",
     "Project Management"
   ];
+  {/* Header */}
+      <header className="relative z-10 px-6 py-8">
+        <div className="mx-auto max-w-6xl">
+          <Link
+            to="/"
+            className="group inline-flex items-center space-x-3 text-purple-300 hover:text-white transition-all duration-300 hover:scale-105"
+          >
+            <ArrowLeft className="h-5 w-5 group-hover:-translate-x-1 transition-transform duration-300" />
+            <span className="font-medium">Back to Home</span>
+          </Link>
+        </div>
+      </header>
 
           {/* Future Goals */}
           <div className="mb-16">

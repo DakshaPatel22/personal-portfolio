@@ -46,7 +46,7 @@ function Home() {
     {
       name: "Email",
       icon: Mail,
-      url: "mailto:daksha.patel@example.com",
+      url: "mailto:dakshapatel221102@gmail.com",
       color: "bg-gradient-to-r from-green-500 to-emerald-600 hover:from-green-600 hover:to-emerald-700 hover:scale-110 hover:shadow-2xl hover:shadow-green-500/50"
     }
   ];
